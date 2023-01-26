@@ -53,7 +53,7 @@ function tabelsRow() {
                                  <div class="modal-dialog ">
                                      <div class="modal-content">
                                          <div class="modal-header divmodalbody">
-                                             <h2 class="modal-title">Edit Your Order</h2>
+                                             <h2 class="modal-title">Your shopping cart</h2>
                                          </div>
                                          <!-- Modal body -->
                                          <div class="modal-body divmodalbody" >
