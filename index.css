@@ -1,0 +1,28 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(29, 8, 42);
+    padding-top: 50px;
+}
+
+.div1 {
+    background-color: rgb(226, 255, 218);
+    height: 350px;
+    width: 1500px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.trgreen {
+    background-color: rgb(107, 249, 102) !important;
+}
+
+.trred {
+    background-color: rgb(249, 102, 102) !important;
+}
