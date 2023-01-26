@@ -134,9 +134,13 @@ function best_option() {
         arr1.push(rating)
         arr2.push(price)
     }
-    console.log(arr1, arr2);
-    arr3 = arr1.sort()
-    console.log(arr3);  
+     arr1.sort();
+    if(arr1[arr1.length - 1] != arr1[arr1.length - 2]){
+    let best_rating = arr1[arr1.length - 1]
+    let result = data.find(item => item.Rating_of_the_plac == best_rating);
+    console.log(result);
+    return result;
+    }  
 }
 
 function deleteClick(event){
