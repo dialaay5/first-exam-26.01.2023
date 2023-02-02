@@ -42,7 +42,7 @@ const high_rating_threshold = 4
 function tabelsRow() {
     for (let i = 0; i < data.length; i++) {
         $('#table').append(`<tr id="tr${i}"><td>${data[i].Id}</td>
-                                 <td><a target="_blank" href="${data[i].Link_of_the_store}"><img src="images/${i}.jpg" alt="tv" width="80"></a></td>
+                            <td><img src="${i}.jpg" alt="tv1" width="80"></td>
                                  <td>${data[i].Name_of_the_store}</td>
                                  <td>${data[i].Address}</td>
                                  <td>${data[i].City}</td>
